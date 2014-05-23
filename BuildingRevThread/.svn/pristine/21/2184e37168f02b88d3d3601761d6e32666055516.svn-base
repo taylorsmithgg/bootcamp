@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Building>
+    <buildingList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cookSystemsBuilding">
+        <cost>10.0</cost>
+        <name>Cook Systems Building</name>
+        <numFloors>10</numFloors>
+        <numRooms>100</numRooms>
+    </buildingList>
+    <buildingList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="empireStateBuilding">
+        <cost>100.0</cost>
+        <name>Empire State Building</name>
+        <numFloors>100</numFloors>
+        <numRooms>10000</numRooms>
+    </buildingList>
+    <buildingList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cookSystemsBuilding">
+        <cost>10.0</cost>
+        <name>Cook Systems Building</name>
+        <numFloors>10</numFloors>
+        <numRooms>100</numRooms>
+    </buildingList>
+    <buildingList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cookSystemsBuilding">
+        <cost>10.0</cost>
+        <name>Cook Systems Building</name>
+        <numFloors>10</numFloors>
+        <numRooms>100</numRooms>
+    </buildingList>
+</Building>

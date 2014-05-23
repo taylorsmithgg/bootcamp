@@ -1,0 +1,29 @@
+package com.cooksystems.bootcamp.cars;
+
+import com.cooksystems.bootcamp.cardealer.Car;
+import com.cooksystems.bootcamp.cardealer.Load;
+
+public class Compact extends Car {
+
+	public Compact() {
+		year = 2000;
+		type = "Honda";
+		model = "Civic";
+		capacity = 100;
+	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return this.year + " " + this.type + " " + this.model;
+	}
+
+	@Override
+	public boolean canCarry(Load load) {
+		if (load.getWeight() < capacity) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+}

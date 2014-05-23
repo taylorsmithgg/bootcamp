@@ -1,0 +1,42 @@
+package com.cooksystems.bootcamp.cardealer;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.cooksystems.bootcamp.cars.Compact;
+import com.cooksystems.bootcamp.cars.PickupTruck;
+import com.cooksystems.bootcamp.cars.SportUtilityVehicle;
+
+public class CarDealer implements Operation {
+
+	public CarDealer(Load load) {
+		System.out.println("Vehicle: "
+				+ getSmallestCarThatCanCarry(load).toString() + " Load Size: "
+				+ load.toString());
+	}
+
+	public Car getSmallestCarThatCanCarry(Load load) {
+		Car a = new Compact();
+		Car b = new SportUtilityVehicle();
+		Car c = new PickupTruck();
+
+		if (a.canCarry(load)) {
+			return a;
+		} else if (b.canCarry(load)) {
+			return b;
+		} else if (c.canCarry(load)) {
+			return c;
+		} else {
+			return null;
+		}
+	}
+
+	public static void main(String[] args) {
+		List<Load> garage = new ArrayList<Load>();
+		for (int i = 0; i < 10; i++) {
+			int rand = (int) (Math.random() * 400);
+			Load load = new Load(rand);
+			new CarDealer(load);
+		}
+	}// end main
+}// end class

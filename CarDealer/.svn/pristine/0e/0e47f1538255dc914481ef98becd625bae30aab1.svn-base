@@ -1,0 +1,30 @@
+package com.cooksystems.bootcamp.cars;
+
+import com.cooksystems.bootcamp.cardealer.Car;
+import com.cooksystems.bootcamp.cardealer.Load;
+
+public class SportUtilityVehicle extends Car {
+
+	public SportUtilityVehicle() {
+		year = 2004;
+		type = "Lincoln";
+		model = "Navigator";
+		capacity = 200;
+	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return this.year + " " + this.type + " " + this.model;
+	}
+
+	@Override
+	public boolean canCarry(Load load) {
+		if (load.getWeight() < capacity) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+}

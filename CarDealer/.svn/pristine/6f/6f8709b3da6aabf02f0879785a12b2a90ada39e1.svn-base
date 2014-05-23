@@ -1,0 +1,12 @@
+package com.cooksystems.bootcamp.cardealer;
+
+public abstract class Car {
+	protected int year;
+	protected String type;
+	protected String model;
+	protected int capacity;
+
+	public abstract String toString();
+
+	public abstract boolean canCarry(Load load);
+}

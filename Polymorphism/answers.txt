@@ -1,0 +1,38 @@
+ Abstraction in design is the crafting of objects. 
+ Abstraction in coding generalizes what can be later specialized in further definition, allowing programmers to work
+ on more complex issues without worrying about minor details.
+ 
+ Encapsulation organizes data into workable parts that are easier to handle than the data in itself.
+ Encapsulation focuses away from the minor details of what is being processed in order to develop better behavior.
+  
+ Inheritance provides an organized way to deal with similarities in programs by moving common elements to higher level types.
+ Inheritance allows programmers to reduce clutter by condensing code into shorter, cleaner parts that can be extended 
+ with more detail in sub types.
+  
+ Polymorphism provides that two methods of the same name can exist and behave properly through definitions the coder sets in place.
+ Polymorphism prevents problems between data mismatch by allowing the user to pass in multiple values.
+ 
+ 1. Use caps and camel case appropriately for class names, variables, static variables(constants) and file names.
+ 	*The most important practice is clearly defining variables, classes, and files names as it sets apart code appropriately for future reference. 
+ 	*It sets the code to a standard that can be easily and commonly read by any other programmer.
+ 	*This clear and concise organization is the most important aspect of programming.
+ 2. One class per file.
+ 	*The reason this practice is so important is because it further organizes not only the code, but the entire concept of what the class does independelty of other functionality.
+ 3.	Write clearly, succinctly, and include extra comments to explain code when necessary.
+ 	*This is also very important in order to keep organization straight, but also provides the necessary explanation for not only yourself if you get lost but other programmers who may have to debug your code.
+ 	*It helps to define the programmers intent to pursue a certain functionality.
+ 4. Write JUnits -> Before you write the code, if at all possible.
+ 	*JUnits helps to determine the underlying details as to where and why code has encountered an error. By advocating JUnits, a programmer sets up a fail-safe guard for future changes.
+ 5. Use interfaces.
+ 	*By using interfaces, the program is more flexible to be modified at later dates and supports more functionality.
+ 6. Refactor to: Allow flexibility of algorithms, improve readability, improve performance, improve efficiency and design.
+ 	*By carefully refactoring, many current issues can be solved and future issues can be prevented. By refactoring, algorithms can be expanded to encompass more criteria.
+ 	*Furthermore, the readibility of the program can drastically increase due to changes made after variables were defined.
+ 7. Use private, protected, and public appropriately.
+ 	*Due to these properties providing security, they are necessary and extremely important. They safeguard not only during data processing, but also against security leaks.
+ 8. Use javadocs to explain your classes and methods.
+ 	*By providing documentation with a program, there is the ability to retrace the steps the programmer took in order to develop their program.
+ 9. Beware the use of static variables. Know the singleton pattern.
+ 	*Because one Java Virtual Machine is limited to maintaining a single value on a static variable, data exchange can be lost or destroyed in transmission.
+ 10. Use final for arugements that are not modified and methods not to be overridden.
+ 	*This rule is important because it prevents both users and other programmers from modifying data that should not be modified at any given time.

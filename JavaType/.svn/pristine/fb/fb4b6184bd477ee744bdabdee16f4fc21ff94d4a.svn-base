@@ -1,0 +1,43 @@
+package com.cooksystems.bootcamp.types;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Set;
+
+public class Default extends Abstract {
+	HashMap<Integer, String> data = new HashMap<Integer, String>();
+	Set<Default> dataset = new HashSet<Default>();
+	Queue<String> line = new LinkedList<String>();
+
+	int i = 1;
+	boolean t = true;
+	short x = 0;
+	long y = 1024;
+	float z = 256;
+	double xy = 10.25;
+	char c = 'a';
+	byte b = 0x00034;
+
+	public Default() {
+		tryCatch();
+		System.out.println("HashMap: " + data.toString());
+		dataset.add(this);
+		System.out.println("Set: " + dataset.toString());
+		line.add(this.toString());
+		System.out.println("Queue: " + line.toString());
+	}
+
+	public void tryCatch() {
+		try {
+			i = i / 0;
+		} catch (ArithmeticException e) {
+			data.put(i, e.getMessage());
+		}
+	}
+
+	public static void main(String[] args) {
+		new Default();
+	}
+}

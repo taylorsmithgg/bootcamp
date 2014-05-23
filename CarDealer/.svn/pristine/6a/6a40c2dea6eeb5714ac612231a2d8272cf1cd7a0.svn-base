@@ -1,0 +1,30 @@
+package com.cooksystems.bootcamp.cars;
+
+import com.cooksystems.bootcamp.cardealer.Car;
+import com.cooksystems.bootcamp.cardealer.Load;
+
+public class PickupTruck extends Car {
+
+	public PickupTruck() {
+		year = 2009;
+		type = "Ford";
+		model = "F-350";
+		capacity = 400;
+	}
+
+	@Override
+	public String toString() {
+		return this.year + " " + this.type + " " + this.model;
+
+	}
+
+	@Override
+	public boolean canCarry(Load load) {
+		if (load.getWeight() < capacity) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+}
