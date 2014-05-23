@@ -3,6 +3,8 @@ package com.cooksys.bootcamp.building;
 import java.io.Closeable;
 import java.io.File;
 import java.io.IOException;
+import java.io.OutputStream;
+import java.net.ConnectException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
@@ -13,38 +15,43 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 
-public class Builder{
+public class Builder {
 	double budget;
 	File file;
-	volatile boolean running = true;
 	public static final String LINE_SEPARATOR = System
 			.getProperty("line.separator");
 	List<Building> history;
-	static String[] blueprint = { "Cook Systems Building",
-			"Empire State Building", "foo" };
-	static final int PORT = 2663;
+	static final int PORT = 2665;
 
 	public Builder(double budget) {
 		this.budget = budget;
 		history = new ArrayList<Building>();
 
 		try {
-			Socket clientSocket = null;
-			int character;
-
 			System.out.println("Binding...");
 			ServerSocket serverSocket = new ServerSocket(PORT);
+			
 			System.out.println("\tBound");
 			System.out.println("Waiting for client...");
 
-			clientSocket = serverSocket.accept();
-			System.out.println("\tClient connected");
-			new BuilderClient();
+			while (true) {
+				Socket clientSocket = serverSocket.accept();
+				OutputStream outputStream = clientSocket.getOutputStream();
+				System.out.println("\tClient connected");
 
-			while ((character = clientSocket.getInputStream().read()) != 1)
-				System.out.print((char) character);
+				int character;
+				
+				this.budget = clientSocket.getInputStream().read();
+				
+				while ((character = clientSocket.getInputStream().read()) != -1) {
+					//Thread.sleep(5000);
+					System.out.print((char) character);
+				}
 
-			System.out.println("Exiting...");
+				System.out.println("Exiting...");
+
+				serverSocket.close();
+			}
 		} catch (IOException e) {
 			e.getStackTrace();
 		}
@@ -73,20 +80,14 @@ public class Builder{
 	}
 
 	public boolean buildBuilding(Building b) {
-		try {
-			if (budget >= b.cost) {
-				history.add(b);
-				Thread.sleep(b.buildTime / 100);
-				b.built();
-				budget -= b.getCost();
-				System.out.println("Budget: " + budget);
-				return true;
-			} else {
-				Thread.currentThread().interrupt();
-				return false;
-			}
-		} catch (InterruptedException e) {
-			e.printStackTrace();
+		if (budget >= b.cost) {
+			history.add(b);
+			b.built();
+			budget -= b.getCost();
+			System.out.println("Budget: " + budget);
+			return true;
+		} else {
+			Thread.currentThread().interrupt();
 			return false;
 		}
 	}
@@ -122,53 +123,8 @@ public class Builder{
 		}
 	}
 
-//	@Override
-//	public void run() {
-//		while (running) {
-//			synchronized (builder) {
-//				for (String s : blueprint) {
-//					System.out.println(Thread.currentThread().getName());
-//					Building b = Building.parseBuilding(s);
-//					// System.out.println(Thread.currentThread().getName());
-//					if (b != null) {
-//						running = builder.buildBuilding(b);
-//					} else {
-//						System.out.println("Error " + s + " is not a building");
-//					}
-//				}
-//			}
-//		}
-//	}
-
 	public static void main(String[] args) {
-		// Thread thread1 = new Thread(builder);
-		// Thread thread2 = new Thread(builder);
-		// Thread thread3 = new Thread(builder);
-		// Thread thread4 = new Thread(builder);
-		// Thread thread5 = new Thread(builder);
-		//
-		// thread1.start();
-		// thread2.start();
-		// thread3.start();
-		// thread4.start();
-		// thread5.start();
-
-		BuilderClient client = new BuilderClient();
 		Builder builder = new Builder(500);
-		
-		// try {
-		// thread1.join();
-		// thread2.join();
-		// thread3.join();
-		// thread4.join();
-		// thread5.join();
-		// } catch (InterruptedException e) {
-		// e.printStackTrace();
-		// }
-
-		// builder.printHistory();
-		// builder.testWrapper();
-		// builder.testUnwrapper();
 	}// end main
 
 }// end class
