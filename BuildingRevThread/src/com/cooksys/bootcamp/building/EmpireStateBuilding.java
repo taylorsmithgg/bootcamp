@@ -17,7 +17,7 @@ public class EmpireStateBuilding extends Building {
 	}
 
 	public void built() {
-		System.out.println(this + " built!");
+		System.out.println(this.toString() + " built on: " + Thread.currentThread().getName());
 
 	}
 

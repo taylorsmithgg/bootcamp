@@ -14,12 +14,13 @@ import javax.xml.bind.Unmarshaller;
 public class Builder implements Runnable {
 	double budget;
 	File file;
+	volatile boolean running = true;
 	public static final String LINE_SEPARATOR = System
 			.getProperty("line.separator");
 	List<Building> history;
-	static Builder builder = new Builder(300);
-	String[] blueprint = { "Cook Systems Building", "Empire State Building",
-			"foo" };
+	static Builder builder = new Builder(500);
+	static String[] blueprint = { "Cook Systems Building",
+			"Empire State Building", "foo" };
 
 	public Builder(double budget) {
 		this.budget = budget;
@@ -49,11 +50,22 @@ public class Builder implements Runnable {
 	}
 
 	public boolean buildBuilding(Building b) {
-		b.built();
-		history.add(b);
-		budget -= b.getCost();
-		System.out.println("Budget: " + budget);
-		return true;
+		try {
+			if (budget >= b.cost) {
+				history.add(b);
+				Thread.sleep(b.buildTime / 100);
+				b.built();
+				budget -= b.getCost();
+				System.out.println("Budget: " + budget);
+				return true;
+			} else {
+				Thread.currentThread().interrupt();
+				return false;
+			}
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+			return false;
+		}
 	}
 
 	public void testWrapper() {
@@ -89,21 +101,20 @@ public class Builder implements Runnable {
 
 	@Override
 	public void run() {
-		Building b = null;
-		synchronized (builder) {
-			for (String s : blueprint) {
-				b = Building.parseBuilding(s);
-				if (b != null) {
-					if (b.cost <= budget) {
-						//Thread.sleep(b.buildTime);
-						builder.buildBuilding(b);
-						System.out.println(Thread.currentThread());
+		while (running) {
+			synchronized (builder) {
+				for (String s : blueprint) {
+					System.out.println(Thread.currentThread().getName());
+					Building b = Building.parseBuilding(s);
+					// System.out.println(Thread.currentThread().getName());
+					if (b != null) {
+						running = builder.buildBuilding(b);
 					} else {
-						Thread.currentThread().interrupt();
+						System.out.println("Error " + s + " is not a building");
 					}
 				}
 			}
-		}// end synchronized
+		}
 	}
 
 	public static void main(String[] args) {
@@ -118,6 +129,20 @@ public class Builder implements Runnable {
 		thread3.start();
 		thread4.start();
 		thread5.start();
+
+		try {
+			thread1.join();
+			thread2.join();
+			thread3.join();
+			thread4.join();
+			thread5.join();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+
+		builder.printHistory();
+		// builder.testWrapper();
+		// builder.testUnwrapper();
 	}// end main
 
 }// end class
