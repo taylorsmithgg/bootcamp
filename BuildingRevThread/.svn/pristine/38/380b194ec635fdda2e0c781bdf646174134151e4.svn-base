@@ -21,7 +21,6 @@ public class Builder implements Runnable {
 	static Builder builder = new Builder(500);
 	static String[] blueprint = { "Cook Systems Building",
 			"Empire State Building", "foo" };
-	Building b;
 
 	public Builder(double budget) {
 		this.budget = budget;
@@ -51,18 +50,20 @@ public class Builder implements Runnable {
 	}
 
 	public boolean buildBuilding(Building b) {
-		if (budget >= b.cost) {
-			history.add(b);
-			try {
-				Thread.sleep(b.buildTime);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
+		try {
+			if (budget >= b.cost) {
+				history.add(b);
+				Thread.sleep(b.buildTime / 100);
+				b.built();
+				budget -= b.getCost();
+				System.out.println("Budget: " + budget);
+				return true;
+			} else {
+				Thread.currentThread().interrupt();
+				return false;
 			}
-			b.built();
-			budget -= b.getCost();
-			System.out.println("Budget: " + budget);
-			return true;
-		} else {
+		} catch (InterruptedException e) {
+			e.printStackTrace();
 			return false;
 		}
 	}
@@ -103,9 +104,13 @@ public class Builder implements Runnable {
 		while (running) {
 			synchronized (builder) {
 				for (String s : blueprint) {
-					b = Building.parseBuilding(s);
+					System.out.println(Thread.currentThread().getName());
+					Building b = Building.parseBuilding(s);
+					// System.out.println(Thread.currentThread().getName());
 					if (b != null) {
 						running = builder.buildBuilding(b);
+					} else {
+						System.out.println("Error " + s + " is not a building");
 					}
 				}
 			}
