@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<serverconfig>
+    <port>2663</port>
+    <developer>Taylor Smith</developer>
+    <shareDirectoryPath>.\shared\</shareDirectoryPath>
+    <historyPath>.\history\</historyPath>
+</serverconfig>
