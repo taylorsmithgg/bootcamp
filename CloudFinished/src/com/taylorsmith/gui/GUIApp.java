@@ -6,10 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.ArrayList;
 
 import javax.swing.DefaultListModel;
 import javax.swing.JButton;
@@ -21,30 +18,25 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JSplitPane;
 import javax.swing.border.TitledBorder;
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Unmarshaller;
 
-import com.taylorsmith.XML.ClientConfig;
 import com.taylorsmith.client.Client;
 import com.taylorsmith.server.Server;
 
-public class GUIApp {
+class GUIApp {
 
 	private JFrame frame;
 	private String host;
-	JLabel lblDeveloper;
-	public Client client;
+    private Client client;
 
-	JButton temp;
+	private JButton temp;
 
-	DefaultListModel<String> remoteListModel = new DefaultListModel<String>();
-	DefaultListModel<String> localListModel = new DefaultListModel<String>();
-	DefaultListModel<String> downloadedListModel = new DefaultListModel<String>();
+	private DefaultListModel<String> remoteListModel = new DefaultListModel<>();
+	private DefaultListModel<String> localListModel = new DefaultListModel<>();
+	private DefaultListModel<String> downloadedListModel = new DefaultListModel<>();
 
-	JList<String> downloadedList = new JList<String>();
-	JList<String> localList = new JList<String>();
-	JList<String> remoteList = new JList<String>();
+	private JList<String> downloadedList = new JList<>();
+	private final JList<String> localList = new JList<>();
+	private JList<String> remoteList = new JList<>();
 
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
@@ -59,11 +51,11 @@ public class GUIApp {
 		});
 	}
 
-	public GUIApp() throws JAXBException {
+	private GUIApp() {
 		initialize();
 	}
 
-	private void initialize() throws JAXBException {
+	private void initialize() {
 		Server server = new Server();
 
 		frame = new JFrame();
@@ -74,7 +66,7 @@ public class GUIApp {
 		JPanel panel = new JPanel();
 		frame.getContentPane().add(panel, BorderLayout.NORTH);
 
-		final JComboBox<String> menuHost = new JComboBox<String>();
+		final JComboBox<String> menuHost = new JComboBox<>();
 		for (String s : server.hostList) {
 			menuHost.addItem(s);
 		}
@@ -97,7 +89,7 @@ public class GUIApp {
 
 				try {
 					for (String file : client.getServerFiles()) {
-						remoteListModel.addElement(file.toString());
+						remoteListModel.addElement(file);
 					}
 				} catch (IOException e1) {
 					// TODO Auto-generated catch block
@@ -139,7 +131,7 @@ public class GUIApp {
 		});
 		panel.add(btnDisconnect);
 
-		lblDeveloper = new JLabel("");
+        JLabel lblDeveloper = new JLabel("");
 		panel.add(lblDeveloper);
 
 		JSplitPane splitPane = new JSplitPane();
@@ -156,7 +148,7 @@ public class GUIApp {
 		localPanel(splitPane);
 	}
 
-	private JPanel localPanel(JSplitPane splitPane) {
+	private void localPanel(JSplitPane splitPane) {
 		JPanel localPanel = new JPanel();
 		splitPane.setRightComponent(localPanel);
 		localPanel.setLayout(new BorderLayout(0, 0));
@@ -180,7 +172,7 @@ public class GUIApp {
 		JButton btnRefreshLocal = new JButton("Refresh");
 		btnRefreshLocal.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				localListModel = new DefaultListModel<String>();
+				localListModel = new DefaultListModel<>();
 
 				for (String file : client.getLocalFiles()) {
 					localListModel.addElement(file);
@@ -190,7 +182,6 @@ public class GUIApp {
 			}
 		});
 		panel_1.add(btnRefreshLocal);
-		return localPanel;
 	}
 
 	private void panelDownload(JSplitPane splitPane_1) {
@@ -205,7 +196,7 @@ public class GUIApp {
 
 		panelDownloaded.add(panel, BorderLayout.SOUTH);
 
-		downloadedList = new JList<String>();
+		downloadedList = new JList<>();
 		downloadedList.setBorder(new TitledBorder(null, "Downloaded Files",
 				TitledBorder.LEADING, TitledBorder.TOP, null, null));
 		downloadedScroll.setViewportView(downloadedList);
@@ -213,7 +204,7 @@ public class GUIApp {
 		JButton btnRefreshDownload = new JButton("Refresh");
 		btnRefreshDownload.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				downloadedListModel = new DefaultListModel<String>();
+				downloadedListModel = new DefaultListModel<>();
 
 				for (String file : client.getDownloadHistory()) {
 					downloadedListModel.addElement(file);
@@ -234,7 +225,7 @@ public class GUIApp {
 		JScrollPane remoteScroll = new JScrollPane();
 		remotePanel.add(remoteScroll);
 
-		remoteList = new JList<String>();
+		remoteList = new JList<>();
 		remoteList.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
@@ -245,8 +236,6 @@ public class GUIApp {
 						try {
 							System.out.println("File: " + o.toString());
 							client.downloadFile(o.toString());
-						} catch (FileNotFoundException e1) {
-							e1.printStackTrace();
 						} catch (IOException e1) {
 							// TODO Auto-generated catch block
 							e1.printStackTrace();
@@ -265,7 +254,7 @@ public class GUIApp {
 		JButton btnRefreshRemote = new JButton("Refresh");
 		btnRefreshRemote.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				remoteListModel = new DefaultListModel<String>();
+				remoteListModel = new DefaultListModel<>();
 
 				try {
 					for (String file : client.getServerFiles()) {

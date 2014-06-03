@@ -1,32 +1,23 @@
 package com.taylorsmith.cloud;
 
 import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
-import java.util.ArrayList;
 
-import com.taylorsmith.client.Client;
 import com.taylorsmith.server.Server;
 
 public class Handler implements Runnable {
-	Client client;
 
-	byte[] buffer = new byte[1024];
-	Server server;
-	Socket socket;
-	InputStream serverIn;
-	OutputStream serverOut;
-	BufferedInputStream bufferedIn;
-	BufferedOutputStream bufferedOut;
+    private final Server server;
+	private final Socket socket;
+	private InputStream serverIn;
+	private OutputStream serverOut;
 
-	boolean running = true;
-
-	// Constructor sets server and socket for handler and intializes thread for
+    // Constructor sets server and socket for handler and intializes thread for
 	// multi-threaded connections. Thread is set to Daemon for efficiency.
 
 	public Handler(Server server, Socket socket) {
@@ -53,7 +44,8 @@ public class Handler implements Runnable {
 			serverOut.write(server.developer.getBytes());
 			serverOut.write(Commands.END);
 
-			while (running) {
+            boolean running = true;
+            while (true) {
 				try {
 					int commandByte = serverIn.read();
 					System.out.println("Command: " + (char) commandByte);
@@ -90,7 +82,7 @@ public class Handler implements Runnable {
 	// over the File array to get the names of all the files and write them to
 	// the client to display to the user.
 
-	public void sendFileList() throws IOException {
+	void sendFileList() throws IOException {
 		System.out.println("Sending file list...");
 
 		File[] files = server.getServerFileList();
@@ -112,7 +104,7 @@ public class Handler implements Runnable {
 	// fileName. Checks if file exists and returns corresponding command (Y).
 	// File is written to OutputStream to be read by Client
 
-	public void sendFile() throws IOException {
+	void sendFile() throws IOException {
 		System.out.println("Sending file...");
 
 		String fileName = "";
@@ -136,7 +128,7 @@ public class Handler implements Runnable {
 			long fileSize = file.length();
 
 			// Write fileSize to the Client
-			serverOut.write(new Long(fileSize).toString().getBytes());
+			serverOut.write(Long.toString(fileSize).getBytes());
 			serverOut.write(Commands.END);
 
 			// Initialize argument variables before sending file

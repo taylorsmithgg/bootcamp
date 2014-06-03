@@ -11,35 +11,33 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
+import com.taylorsmith.XML.ServerConfig;
 import org.apache.commons.io.IOCase;
 import org.apache.commons.io.filefilter.SuffixFileFilter;
 
-import com.taylorsmith.XML.ClientConfig;
-import com.taylorsmith.XML.ServerConfig;
 import com.taylorsmith.cloud.Handler;
 
 public class Server implements Runnable {
 
 	public String developer;
 	public String serverPath;
-	public int port;
-	public ArrayList<String> hostList = new ArrayList<String>();
+	private int port;
+	public final ArrayList<String> hostList = new ArrayList<>();
 
-	public static final String CHRISTOPHER = "192.168.20.111";
-	public static final String CHRIS = "192.168.20.106";
-	public static final String MIKE = "192.168.20.105";
-	public static final String DODD = "192.168.20.108";
-	public static final String TAYLOR = "192.168.20.110";
-	public static final String TYLER = "192.168.20.109";
-	public static final String ANDREW = "192.168.20.102";
+    private static final String CHRISTOPHER = "192.168.20.111";
+	private static final String CHRIS = "192.168.20.106";
+	private static final String MIKE = "192.168.20.105";
+	private static final String DODD = "192.168.20.108";
+	private static final String TAYLOR = "192.168.20.110";
+	private static final String TYLER = "192.168.20.109";
+	private static final String ANDREW = "192.168.20.102";
 
-	public ArrayList<String> history = new ArrayList<String>();
+	private final ArrayList<String> history = new ArrayList<>();
 
-	ServerSocket serverSocket;
-	Socket clientSocket;
+	private ServerSocket serverSocket;
 
-	private String[] extensions = { ".jpg", ".png", ".gif", ".tif" };
-	public File file;
+    private final String[] extensions = { ".jpg", ".png", ".gif", ".tif" };
+	private File file;
 
 	// Constructor starts a new thread and sets it to Daemon for efficiency
 
@@ -86,10 +84,11 @@ public class Server implements Runnable {
 			System.out.println("Server bound to port: "
 					+ serverSocket.getLocalPort() + "\n");
 
-			while (true) {
+            boolean running = true;
+            while (true) {
 				System.out.println("Listening...");
 
-				clientSocket = serverSocket.accept();
+                Socket clientSocket = serverSocket.accept();
 
 				System.out
 						.println("\tClient connected from "

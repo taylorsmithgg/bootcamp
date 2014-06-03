@@ -16,28 +16,27 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 
-import org.apache.commons.io.IOCase;
-import org.apache.commons.io.filefilter.SuffixFileFilter;
-
 import com.taylorsmith.XML.ClientConfig;
 import com.taylorsmith.XML.ConnectionHistory;
 import com.taylorsmith.XML.DownloadHistory;
 import com.taylorsmith.XML.ServerConfig;
+import org.apache.commons.io.IOCase;
+import org.apache.commons.io.filefilter.SuffixFileFilter;
+
 import com.taylorsmith.cloud.Commands;
 
 public class Client {
 
-	public ArrayList<String> clientHistory = new ArrayList<>();
-	public ArrayList<String> downloadHistory = new ArrayList<>();
+	private final ArrayList<String> clientHistory = new ArrayList<>();
+	private final ArrayList<String> downloadHistory = new ArrayList<>();
 
-	public static final String LOCAL_FILEPATH = ".\\local\\";
-	File localPath = new File(LOCAL_FILEPATH);
-	private String host;
-	private int port = 2663;
-	private InputStream clientIn = null;
+	private static final String LOCAL_FILEPATH = ".\\local\\";
+	private final File localPath = new File(LOCAL_FILEPATH);
+	private final String host;
+    private InputStream clientIn = null;
 	private OutputStream clientOut = null;
-	Socket socket = null;
-	private String[] extensions = { ".jpg", ".png", ".gif", ".tif" };
+	private Socket socket = null;
+	private final String[] extensions = { ".jpg", ".png", ".gif", ".tif" };
 
 	// Constructor -- sets the host and calls connect
 	public Client(String host) {
@@ -50,12 +49,13 @@ public class Client {
 	 * name on connect
 	 */
 
-	public void /**/connect() {
+    void /**/connect() {
 		makeDir(localPath);
 
 		try {
 			System.out.println("Attempting to connect to server...");
-			socket = new Socket(host, port);
+            int port = 2663;
+            socket = new Socket(host, port);
 			if (socket.isConnected()) {
 				System.out.println("\tConnected to " + socket.getLocalAddress()
 						+ ":" + socket.getPort() + "\n");
@@ -98,7 +98,7 @@ public class Client {
 	 * history, & the configuration files.
 	 * 
 	 */
-	public void log() {
+    void log() {
 		Marshaller marshaller;
 
 		try {
@@ -196,8 +196,7 @@ public class Client {
 	 * @throws FileNotFoundException
 	 */
 
-	public void downloadFile(String fileName) throws IOException,
-			FileNotFoundException {
+	public void downloadFile(String fileName) throws IOException {
 		clientOut.write(Commands.SEND_FILE);
 
 		clientOut.write((fileName).getBytes());
@@ -232,7 +231,7 @@ public class Client {
 
 			// Initialize argument variables for BufferedReader
 			byte[] buffer = new byte[1024 * 100];
-			int currentByte = 0;
+			int currentByte;
 			int size = 0;
 
 			// Read buffered input according to buffer
@@ -317,7 +316,6 @@ public class Client {
 	 * @return
 	 */
 	public ArrayList<String> getDownloadHistory() {
-		return downloadHistory;
-	}
-	
+        return downloadHistory;
+    }
 }

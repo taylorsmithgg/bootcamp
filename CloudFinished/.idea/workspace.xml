@@ -2,114 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b567044b-2174-4549-8043-264a8b7e9833" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\BuildingRevNetwork\.svn\pristine\38\380b194ec635fdda2e0c781bdf646174134151e4.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\BuildingRevNetwork\.svn\pristine\a9\a98984b158b47d6e52d06205ee86fedcf2374f6e.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\.svn\entries" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\.svn\format" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\.svn\pristine\15\157c78c420cffddd2ed183e3d8991cf7f4157f86.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\.svn\pristine\17\1738f633fc4a9029a9b29c54a7d3fc9dfb4ca9cf.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\.svn\pristine\3a\3aea5480056eba5000810a688a12feefb6c9280a.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\.svn\pristine\3e\3e65b4daa1359ab4ab4543ba20bfbe4c13543f6d.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\.svn\pristine\67\674d159ddb596d425ca1b3ed425d970791dd4597.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\.svn\pristine\90\90e824e5a61fc03a073db87ed52ead22d1b54dbc.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\.svn\pristine\ae\aea831a5f3454346e9ea606d3117860649e8d5b9.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\.svn\wc.db" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\src\com\cooksys\bootcamp\firstassignment\Book.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\src\com\cooksys\bootcamp\firstassignment\Library.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\src\com\cooksys\bootcamp\firstassignment\Limit.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\src\com\cooksys\bootcamp\firstassignment\Nonfiction.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\entries" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\format" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\02\021135d2b2718bf41bdac5c446a2757b5187c2ab.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\06\0650b9f0ecd5e3056f3ba2ef9dd62fa23a7e9cc9.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\0c\0c21c1b11fd963618496fbc0f4ae122f3b7b63d9.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\17\1738f633fc4a9029a9b29c54a7d3fc9dfb4ca9cf.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\19\19aadfa8362c443901ac2ccac4a9c7ead58e239b.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\1b\1b4605b0e20ceccf91aa278d10e81fad64e24e27.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\21\2187dfd798d07fdfc086421dc5fd6326de20b4ab.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\22\229e2a2f802c979ff4fd9215da191837ec27bbb1.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\23\234562989cf0d8dcd6f5a21614e9a5ab180db34c.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\40\40b679748d6b1a38a6c879e5ad8dc89bd6a80c13.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\41\41fe7c7158c0a3d73afeb0281b9b512185b75da2.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\42\427856d0e4963198d1e2121708d37661526ee968.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\54\54c2f1a1eb6f12d681a5c7078421a5500cee02ad.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\59\59e25b453b356ada9301ccb33f9c3a3d23f77a19.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\71\71f1c9025bf32f9cd71323d8f58d86f76caaa319.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\73\73fa8c95c655388813907e4db5626540cbda5d83.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\75\75be9f6570b812633eb7700d8c23cc4962302b53.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\8b\8ba818b892e469cf381593daee8182c085409ffd.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\90\90560d5f6c3521e874c77b7c476b0546e2554ff4.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\92\9230639277c8aef0b53501ba0e81f7d72edb1312.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\93\9362e57b11f40e949fe976d0434a78c828fd6a4f.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\97\97124b6e5d2c202a53cdd4c4b28d35bad31ab21d.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\a0\a0f7ec910e40cc40b14ce5dd89d2f24b0e71f37c.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\b5\b5d312a7667cb754581929cd8a622fbc7f7b7f7c.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\c0\c0d21e37140fafa8ffea6cca9b4761f4df81282b.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\c6\c65042ff2a1bb29364af15cc54ef4eceb4f78c27.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\ce\ce4a331e478cbdb56b5c2129196b2edbf632ed16.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\cf\cf63bdbf1f13e56133cdef3c7a6abe49c81be9a0.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\d2\d25476a295133eb954ea705be42aa261e27a3a0a.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\d6\d6528418afaa7368a284763b921987d4ce92230e.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\de\dee1147291100bbe98f98bc70b2e0c3b67dfb551.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\df\df40946e4c27aef231f4b7fff98f79d2befa2f94.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\df\df7be9dc4f467187783aca68c7ce98e4df2172d0.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\e0\e016577f42a55c2f231486ed92d7189ad3e0ae65.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\e2\e2850d1a0d73aca269679256e7b790b83323c97c.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\e4\e4e7414175022c68c7e007818bae34483295ee27.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\e5\e555cdfe43bada3ab7e6866f89af24c87cc50e5d.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\e7\e759c68d0f0467e3ddca26f5dbc794d070abadfc.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\ee\eec7a1b36c457ba1aba91717e65ed64d5dd088fe.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\f7\f753b5f5e8a092a6830bbed16a216b71efa80f2a.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\f8\f8cb09f7d5897904a6009038a284a45dd782a67f.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\wc.db" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\Preferences.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\downloads\008.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\downloads\Lighthouse.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\downloads\Penguins.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\downloads\Tulips.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\images\cloud-storage-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\images\delete.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\images\delete.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\images\download.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\images\download.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\images\nav-connect.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\images\open.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\images\open.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\images\refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\images\upload.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\share\Ferrari-612-GTO-0051.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\share\Mercedes-Benz-A-class-concept-2011-626x361.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\share\bmw-pic.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\share\wald-nissan-gt-r-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\Commands.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\FileShare.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\UnknownCommandException.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\actions\ConnectAction.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\client\FileShareClient.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\client\NoConnectionException.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\gui\AlternatingRowColorListCellRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\gui\CustomBackgroundJList.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\gui\DownloadedFilesPanel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\gui\FilePanel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\gui\FileShareWindow.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\gui\LocalFilePanel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\gui\NetworkPanel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\gui\RefreshAction.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\listeners\ConnectionListener.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\server\FileClientHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\server\FileFileFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\server\FileShareServer.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\TestSpace\src\Testing.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BuildingRevNetwork/.svn/wc.db" afterPath="$PROJECT_DIR$/../BuildingRevNetwork/.svn/wc.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BuildingRevNetwork/src/com/cooksys/bootcamp/building/Builder.java" afterPath="$PROJECT_DIR$/../BuildingRevNetwork/src/com/cooksys/bootcamp/building/Builder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BuildingRevXML/src/com/cooksys/bootcamp/building/Builder.java" afterPath="$PROJECT_DIR$/../BuildingRevXML/src/com/cooksys/bootcamp/building/Builder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BuildingRevNetwork/src/com/cooksys/bootcamp/building/BuilderClient.java" afterPath="$PROJECT_DIR$/../BuildingRevNetwork/src/com/cooksys/bootcamp/building/BuilderClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BuildingRevXML/History.xml" afterPath="$PROJECT_DIR$/../BuildingRevXML/History.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ImageIO/src/com/cooksystems/bootcamp/readimage/Loader.java" afterPath="$PROJECT_DIR$/../ImageIO/src/com/cooksystems/bootcamp/readimage/Loader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BuildingRevNetwork/src/com/cooksys/bootcamp/building/XMLFormatter.java" afterPath="$PROJECT_DIR$/../BuildingRevNetwork/src/com/cooksys/bootcamp/building/XMLFormatter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BuildingRevThread/src/com/cooksys/bootcamp/building/XMLFormatter.java" afterPath="$PROJECT_DIR$/../BuildingRevThread/src/com/cooksys/bootcamp/building/XMLFormatter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BuildingRevXML/src/com/cooksys/bootcamp/building/XMLFormatter.java" afterPath="$PROJECT_DIR$/../BuildingRevXML/src/com/cooksys/bootcamp/building/XMLFormatter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Servers/VMware vFabric tc Server Developer Edition v2.8-config/catalina.properties" afterPath="$PROJECT_DIR$/../Servers/VMware vFabric tc Server Developer Edition v2.8-config/catalina.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/local/I SEEN'T IT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/local/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/local/banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/local/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/taylorsmith/client/Client.java" afterPath="$PROJECT_DIR$/src/com/taylorsmith/client/Client.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/taylorsmith/XML/ConnectionHistory.java" afterPath="$PROJECT_DIR$/src/com/taylorsmith/XML/ConnectionHistory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/taylorsmith/XML/DownloadHistory.java" afterPath="$PROJECT_DIR$/src/com/taylorsmith/XML/DownloadHistory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/taylorsmith/gui/GUIApp.java" afterPath="$PROJECT_DIR$/src/com/taylorsmith/gui/GUIApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/taylorsmith/cloud/Handler.java" afterPath="$PROJECT_DIR$/src/com/taylorsmith/cloud/Handler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/taylorsmith/server/Server.java" afterPath="$PROJECT_DIR$/src/com/taylorsmith/server/Server.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/history/download.xml" afterPath="$PROJECT_DIR$/history/download.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/history/history.xml" afterPath="$PROJECT_DIR$/history/history.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaType/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JavaType/.idea/workspace.xml" />
     </list>
     <ignored path="CloudFinished.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -131,7 +38,54 @@
     <favorites_list name="CloudFinished" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Server.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/taylorsmith/server/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="893" max-vertical-offset="2040">
+              <caret line="75" column="33" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GUIApp.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/taylorsmith/gui/GUIApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9425051" vertical-offset="0" max-vertical-offset="646">
+              <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
+              <folding>
+                <element signature="method#main#0;class#GUIApp#0" expanded="false" />
+                <element signature="method#initialize#0;class#GUIApp#0" expanded="false" />
+                <element signature="method#localPanel#0;class#GUIApp#0" expanded="false" />
+                <element signature="method#panelDownload#0;class#GUIApp#0" expanded="false" />
+                <element signature="method#panelRemote#0;class#GUIApp#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/taylorsmith/client/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1454" max-vertical-offset="5134">
+              <caret line="117" column="27" selection-start-line="117" selection-start-column="27" selection-end-line="117" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Build.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Build.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="544">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -145,14 +99,18 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/src/com/taylorsmith/XML/ConnectionHistory.java" />
+        <option value="$PROJECT_DIR$/src/com/taylorsmith/gui/GUIApp.java" />
         <option value="$PROJECT_DIR$/src/com/taylorsmith/client/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/taylorsmith/server/Server.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="107" />
-    <option name="width" value="1393" />
-    <option name="height" value="860" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -182,6 +140,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -190,20 +150,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CloudFinished" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CloudFinished" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,7 +161,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_054f2e797ebafd44a30203088cd3d58663c627ef/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Backup" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -225,6 +173,12 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bondstone70\Documents\GitHub\bootcamp\CloudFinished\src\com\taylorsmith\XML" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.GUIApp">
     <configuration default="false" name="GUIApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -492,6 +446,9 @@
       <workItem from="1401720580107" duration="346000" />
       <workItem from="1401720935456" duration="478000" />
       <workItem from="1401746099360" duration="1306000" />
+      <workItem from="1401826847910" duration="75000" />
+      <workItem from="1401827041940" duration="127000" />
+      <workItem from="1401828548775" duration="1692000" />
     </task>
     <task id="LOCAL-00001" summary="Updated &amp; Final">
       <created>1401747245359</created>
@@ -501,38 +458,38 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2130000" />
+    <option name="totallyTimeSpent" value="4024000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="107" y="0" width="1393" height="860" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294271" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32845744" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2512709" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294271" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.198125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997396" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294271" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -565,7 +522,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="4913">
           <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="method#main#0;class#GUIApp#0" expanded="false" />
+            <element signature="method#initialize#0;class#GUIApp#0" expanded="false" />
+            <element signature="method#localPanel#0;class#GUIApp#0" expanded="false" />
+            <element signature="method#panelDownload#0;class#GUIApp#0" expanded="false" />
+            <element signature="method#panelRemote#0;class#GUIApp#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -573,11 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="398" max-vertical-offset="4471">
           <caret line="115" column="55" selection-start-line="115" selection-start-column="55" selection-end-line="115" selection-end-column="55" />
-          <folding>
-            <element signature="method#connect#0;class#Client#0" expanded="false" />
-            <element signature="method#disconnect#0;class#Client#0" expanded="false" />
-            <element signature="docComment;method#log#0;class#Client#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -585,7 +543,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4913">
           <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="method#main#0;class#GUIApp#0" expanded="false" />
+            <element signature="method#initialize#0;class#GUIApp#0" expanded="false" />
+            <element signature="method#localPanel#0;class#GUIApp#0" expanded="false" />
+            <element signature="method#panelDownload#0;class#GUIApp#0" expanded="false" />
+            <element signature="method#panelRemote#0;class#GUIApp#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -593,49 +557,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2405" max-vertical-offset="5185">
           <caret line="174" column="39" selection-start-line="174" selection-start-column="39" selection-end-line="174" selection-end-column="39" />
-          <folding>
-            <element signature="method#connect#0;class#Client#0" expanded="false" />
-            <element signature="method#disconnect#0;class#Client#0" expanded="false" />
-            <element signature="docComment;method#log#0;class#Client#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/history/download.xml">
+    <entry file="file://$PROJECT_DIR$/Build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2494759" vertical-offset="0" max-vertical-offset="714">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="544">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/taylorsmith/XML/ServerConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/com/taylorsmith/XML/ConnectionHistory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4654088" vertical-offset="203" max-vertical-offset="680">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.39054054" vertical-offset="0" max-vertical-offset="740">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/taylorsmith/client/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6981132" vertical-offset="3747" max-vertical-offset="4471">
-          <caret line="304" column="52" selection-start-line="304" selection-start-column="52" selection-end-line="304" selection-end-column="52" />
-          <folding>
-            <element signature="method#connect#0;class#Client#0" expanded="false" />
-            <element signature="method#disconnect#0;class#Client#0" expanded="false" />
-            <element signature="docComment;method#log#0;class#Client#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="1454" max-vertical-offset="5134">
+          <caret line="117" column="27" selection-start-line="117" selection-start-column="27" selection-end-line="117" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/taylorsmith/server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="893" max-vertical-offset="2040">
+          <caret line="75" column="33" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/taylorsmith/gui/GUIApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="4420">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding />
+        <state vertical-scroll-proportion="0.9425051" vertical-offset="0" max-vertical-offset="646">
+          <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
+          <folding>
+            <element signature="method#main#0;class#GUIApp#0" expanded="false" />
+            <element signature="method#initialize#0;class#GUIApp#0" expanded="false" />
+            <element signature="method#localPanel#0;class#GUIApp#0" expanded="false" />
+            <element signature="method#panelDownload#0;class#GUIApp#0" expanded="false" />
+            <element signature="method#panelRemote#0;class#GUIApp#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
