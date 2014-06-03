@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="CloudFinished" basedir="." default="build">
+	<property name="src.dir" value="src" />
+	<property name="build.dir" value="build" />
+	<property name="name" value="Cloud" />
+
+	<target name="build" description="Compiled">
+		<mkdir dir="${build.dir}" />
+		<javac destdir="${build.dir}" source="1.7" target="1.7">
+			<src path="${src.dir}" />
+		</javac>
+	</target>
+
+	<target name="deployjar" depends="build">
+		<jar destfile="${name}.jar">
+			<copy todir=".">
+				<fileset dir="${build}">
+					<include name="**/*.*"/>
+				</fileset>
+			</copy>
+		</jar>
+	</target>
+</project>

@@ -2,15 +2,8 @@ package com.cooksys.bootcamp.building;
 
 import java.io.Closeable;
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.OutputStream;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import javax.xml.bind.JAXBContext;
@@ -53,7 +46,6 @@ public class Builder {
 	}
 
 	public boolean buildBuilding(Building b) {
-		int i = 0;
 		if (budget >= b.cost) {
 			history.add(b);
 			b.built();
@@ -76,7 +68,6 @@ public class Builder {
 			Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
 			jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT,true);
 			jaxbMarshaller.marshal(xmlList, file);
-			jaxbMarshaller.marshal(xmlList, System.out);
 		} catch (JAXBException e) {
 			e.printStackTrace();
 		}

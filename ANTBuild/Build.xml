@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ANTBuild" basedir="." default="deployjar">
+	<property name="src.dir" value="src" />
+	<property name="build.dir" value="build" />
+	<property name="name" value="Cloud" />
+
+	<target name="deployjar">
+		<jar destfile="build/ANTBuild.jar" basedir="." />
+	</target>
+</project>

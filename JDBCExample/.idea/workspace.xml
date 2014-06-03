@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="23c52eff-0248-42a5-86d0-abb3be815979" name="Default" comment="Added JDBCExample">
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\BuildingRevNetwork\.svn\pristine\38\380b194ec635fdda2e0c781bdf646174134151e4.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\BuildingRevNetwork\.svn\pristine\55\55773131705a1f386cdbb99e6b6525ca1e02e90e.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\BuildingRevNetwork\.svn\pristine\a9\a98984b158b47d6e52d06205ee86fedcf2374f6e.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\.svn\format" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\.svn\pristine\15\157c78c420cffddd2ed183e3d8991cf7f4157f86.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\.svn\pristine\17\1738f633fc4a9029a9b29c54a7d3fc9dfb4ca9cf.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\.svn\pristine\3a\3aea5480056eba5000810a688a12feefb6c9280a.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\.svn\pristine\3e\3e65b4daa1359ab4ab4543ba20bfbe4c13543f6d.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\.svn\pristine\67\674d159ddb596d425ca1b3ed425d970791dd4597.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\.svn\pristine\90\90e824e5a61fc03a073db87ed52ead22d1b54dbc.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\.svn\pristine\ae\aea831a5f3454346e9ea606d3117860649e8d5b9.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\.svn\wc.db" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\src\com\cooksys\bootcamp\firstassignment\Book.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\src\com\cooksys\bootcamp\firstassignment\Library.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\src\com\cooksys\bootcamp\firstassignment\Limit.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\HelloWorld\src\com\cooksys\bootcamp\firstassignment\Nonfiction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\format" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\02\021135d2b2718bf41bdac5c446a2757b5187c2ab.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\06\0650b9f0ecd5e3056f3ba2ef9dd62fa23a7e9cc9.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\0c\0c21c1b11fd963618496fbc0f4ae122f3b7b63d9.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\17\1738f633fc4a9029a9b29c54a7d3fc9dfb4ca9cf.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\19\19aadfa8362c443901ac2ccac4a9c7ead58e239b.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\1b\1b4605b0e20ceccf91aa278d10e81fad64e24e27.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\21\2187dfd798d07fdfc086421dc5fd6326de20b4ab.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\22\229e2a2f802c979ff4fd9215da191837ec27bbb1.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\23\234562989cf0d8dcd6f5a21614e9a5ab180db34c.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\40\40b679748d6b1a38a6c879e5ad8dc89bd6a80c13.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\41\41fe7c7158c0a3d73afeb0281b9b512185b75da2.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\42\427856d0e4963198d1e2121708d37661526ee968.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\54\54c2f1a1eb6f12d681a5c7078421a5500cee02ad.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\59\59e25b453b356ada9301ccb33f9c3a3d23f77a19.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\71\71f1c9025bf32f9cd71323d8f58d86f76caaa319.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\73\73fa8c95c655388813907e4db5626540cbda5d83.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\75\75be9f6570b812633eb7700d8c23cc4962302b53.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\8b\8ba818b892e469cf381593daee8182c085409ffd.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\90\90560d5f6c3521e874c77b7c476b0546e2554ff4.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\92\9230639277c8aef0b53501ba0e81f7d72edb1312.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\93\9362e57b11f40e949fe976d0434a78c828fd6a4f.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\97\97124b6e5d2c202a53cdd4c4b28d35bad31ab21d.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\a0\a0f7ec910e40cc40b14ce5dd89d2f24b0e71f37c.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\b5\b5d312a7667cb754581929cd8a622fbc7f7b7f7c.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\c0\c0d21e37140fafa8ffea6cca9b4761f4df81282b.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\c6\c65042ff2a1bb29364af15cc54ef4eceb4f78c27.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\ce\ce4a331e478cbdb56b5c2129196b2edbf632ed16.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\cf\cf63bdbf1f13e56133cdef3c7a6abe49c81be9a0.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\d2\d25476a295133eb954ea705be42aa261e27a3a0a.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\d6\d6528418afaa7368a284763b921987d4ce92230e.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\de\dee1147291100bbe98f98bc70b2e0c3b67dfb551.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\df\df40946e4c27aef231f4b7fff98f79d2befa2f94.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\df\df7be9dc4f467187783aca68c7ce98e4df2172d0.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\e0\e016577f42a55c2f231486ed92d7189ad3e0ae65.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\e2\e2850d1a0d73aca269679256e7b790b83323c97c.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\e4\e4e7414175022c68c7e007818bae34483295ee27.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\e5\e555cdfe43bada3ab7e6866f89af24c87cc50e5d.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\e7\e759c68d0f0467e3ddca26f5dbc794d070abadfc.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\ee\eec7a1b36c457ba1aba91717e65ed64d5dd088fe.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\f7\f753b5f5e8a092a6830bbed16a216b71efa80f2a.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\pristine\f8\f8cb09f7d5897904a6009038a284a45dd782a67f.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\.svn\wc.db" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\Preferences.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\downloads\008.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\downloads\Lighthouse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\downloads\Penguins.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\downloads\Tulips.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\images\cloud-storage-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\images\delete.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\images\delete.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\images\download.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\images\download.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\images\nav-connect.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\images\open.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\images\open.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\images\refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\images\upload.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\share\Ferrari-612-GTO-0051.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\share\Mercedes-Benz-A-class-concept-2011-626x361.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\share\bmw-pic.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\share\wald-nissan-gt-r-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\Commands.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\FileShare.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\UnknownCommandException.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\actions\ConnectAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\client\FileShareClient.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\client\NoConnectionException.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\gui\AlternatingRowColorListCellRenderer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\gui\CustomBackgroundJList.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\gui\DownloadedFilesPanel.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\gui\FilePanel.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\gui\FileShareWindow.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\gui\LocalFilePanel.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\gui\NetworkPanel.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\gui\RefreshAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\listeners\ConnectionListener.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\server\FileClientHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\server\FileFileFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\MidTermJavaProject\src\com\bondstone\finalJavaProject\server\FileShareServer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Bondstone70\Documents\GitHub\bootcamp\TestSpace\src\Testing.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BuildingRevNetwork/.svn/wc.db" afterPath="$PROJECT_DIR$/../BuildingRevNetwork/.svn/wc.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BuildingRevNetwork/src/com/cooksys/bootcamp/building/Builder.java" afterPath="$PROJECT_DIR$/../BuildingRevNetwork/src/com/cooksys/bootcamp/building/Builder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BuildingRevXML/src/com/cooksys/bootcamp/building/Builder.java" afterPath="$PROJECT_DIR$/../BuildingRevXML/src/com/cooksys/bootcamp/building/Builder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BuildingRevNetwork/src/com/cooksys/bootcamp/building/BuilderClient.java" afterPath="$PROJECT_DIR$/../BuildingRevNetwork/src/com/cooksys/bootcamp/building/BuilderClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BuildingRevXML/History.xml" afterPath="$PROJECT_DIR$/../BuildingRevXML/History.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ImageIO/src/com/cooksystems/bootcamp/readimage/Loader.java" afterPath="$PROJECT_DIR$/../ImageIO/src/com/cooksystems/bootcamp/readimage/Loader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BuildingRevNetwork/src/com/cooksys/bootcamp/building/XMLFormatter.java" afterPath="$PROJECT_DIR$/../BuildingRevNetwork/src/com/cooksys/bootcamp/building/XMLFormatter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BuildingRevThread/src/com/cooksys/bootcamp/building/XMLFormatter.java" afterPath="$PROJECT_DIR$/../BuildingRevThread/src/com/cooksys/bootcamp/building/XMLFormatter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BuildingRevXML/src/com/cooksys/bootcamp/building/XMLFormatter.java" afterPath="$PROJECT_DIR$/../BuildingRevXML/src/com/cooksys/bootcamp/building/XMLFormatter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Servers/VMware vFabric tc Server Developer Edition v2.8-config/catalina.properties" afterPath="$PROJECT_DIR$/../Servers/VMware vFabric tc Server Developer Edition v2.8-config/catalina.properties" />
+    </list>
+    <ignored path="JDBCExample.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="JDBCExample" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ConnectUtil.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ConnectUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="544">
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.65163934" vertical-offset="362" max-vertical-offset="1003">
+              <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/ConnectUtil.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JDBCExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="vcs.Subversion" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Bondstone70/Documents/GitHub/Checkout/JDBCExample/src/ConnectUtil.java" />
+    <property name="extract.method.default.visibility" value="private" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JDBCExample" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration>C:\Users\Bondstone70\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23c52eff-0248-42a5-86d0-abb3be815979" name="Default" comment="" />
+      <created>1401814753696</created>
+      <updated>1401814753696</updated>
+      <workItem from="1401814756549" duration="370000" />
+      <workItem from="1401815128017" duration="6973000" />
+      <workItem from="1401824546624" duration="557000" />
+      <workItem from="1401825235137" duration="361000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added JDBCExample">
+      <created>1401825341129</created>
+      <updated>1401825341129</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8261000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39893618" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.324375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33643618" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39893618" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Added JDBCExample" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added JDBCExample" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ConnectUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="544">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1088">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConnectUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="527">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConnectUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="646">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConnectUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65163934" vertical-offset="362" max-vertical-offset="1003">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-java-5.1.23-bin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JDBCExample</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-java-5.1.23-bin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

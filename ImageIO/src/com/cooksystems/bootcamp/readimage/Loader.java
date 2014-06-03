@@ -10,8 +10,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import javax.swing.plaf.basic.BasicOptionPaneUI;
-
 public class Loader {
 	public static final String SOURCE_DIR = ".";
 	public static final String DEST_DIR = "C:/Users/Bondstone70/Documents/workspace-sts-3.2.0.RELEASE/ImageIO/new";
